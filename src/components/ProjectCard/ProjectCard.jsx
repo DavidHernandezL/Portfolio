@@ -1,6 +1,6 @@
-import { Avatar, Card, Date, Description, Details, Image, Members, Tags, Title } from './ProjectCard.js';
+import { Avatar, Card, Date, Description, Details, Image, Members, Tag, Tags, Title } from './ProjectCard.js';
 
-export const ProjectCards = ({ project, setOpenModal }) => {
+export const ProjectCard = ({ project, setOpenModal }) => {
   return (
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
       <Image src={project.image} />
