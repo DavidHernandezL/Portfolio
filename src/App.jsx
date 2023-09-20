@@ -1,11 +1,18 @@
-import './App.css'
-import styled, { ThemeProvider } from 'styled-components'
-import { darkTheme } from './utils/Themes';
-import Navbar from './components/Navbar/Navbar'
-import Hero from './components/HeroSection/Hero'
-import Skills from './components/Skills/Skills';
-import Education from './components/Education/Education';
-import { BrowserRouter as Router } from 'react-router-dom';
+import './App.css';
+import { ThemeProvider } from "styled-components";
+import { useState } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import { darkTheme, lightTheme } from './utils/Themes.js'
+import { Navbar } from "./components/Navbar/Navbar.jsx";
+// import HeroSection from "./components/HeroSection";
+// import Skills from "./components/Skills";
+// import Projects from "./components/Projects";
+import { Contact } from "./components/Contact/Contact.jsx";
+// import Footer from "./components/Footer";
+// import Experience from "./components/Experience";
+import { Education } from "./components/Education/Education.jsx";
+// import ProjectDetails from "./components/ProjectDetails";
+import styled from "styled-components";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -21,18 +28,27 @@ const Wrapper = styled.div`
 `
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <ThemeProvider theme={darkTheme}>
-      <Router>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      <Router >
         <Navbar />
         <Body>
-          <Hero />
+          {/* <HeroSection /> */}
           <Wrapper>
-            <Skills />
+            {/* <Skills />
+            <Experience /> */}
           </Wrapper>
+          {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
           <Wrapper>
             <Education />
+            <Contact />
           </Wrapper>
+          {/* <Footer />
+          {openModal.state &&
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          } */}
         </Body>
       </Router>
     </ThemeProvider>
