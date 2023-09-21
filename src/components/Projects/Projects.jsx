@@ -14,7 +14,7 @@ export const Projects = ({ openModal, setOpenModal }) => {
         <Desc>
           He realizado una serie de proyectos. Tanto en la parte Frontend como en el backend, usando tecnologías como NodeJS o ReactJS
         </Desc>
-        <ToggleButtonGroup >
+        {/* <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>Todos</ToggleButton>
             :
@@ -32,17 +32,17 @@ export const Projects = ({ openModal, setOpenModal }) => {
             :
             <ToggleButton value="Backend" onClick={() => setToggle('Backend')}>BACKEND</ToggleButton>
           }
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === 'all' && projects
+          {/*toggle === 'all' &&*/ projects
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
             ))}
-          {projects
+          {/* {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal} />
-            ))}
+            ))} */}
         </CardContainer>
       </Wrapper>
     </Container>
