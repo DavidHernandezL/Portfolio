@@ -98,7 +98,7 @@ export const skills = [
   },
   {
     id: "8ecddb86-817a-4276-b110-ef916e164513",
-    title: "Others",
+    title: "Otros",
     skills: [
       {
         id: "o1",
@@ -130,8 +130,7 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQFQb9_Lb3bZug/company-logo_200_200/0/1644414857251?e=1693440000&v=beta&t=7WqhIiUCg_0otFDwWn-O_SP-Z4Ftoe4be1WlnjYoESc",
+    id: "e1",
     role: "Frontend Engineer Intern",
     company: "Neurobit",
     date: "June 2023 - Present",
@@ -179,8 +178,8 @@ export const education = [
 export const projects = [
   {
     id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "Propuesta de mejora en mivacuna.salud.gob.mx",
+    date: "Agosto 2021 - Noviembre 2021",
     description:
       "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
     image:

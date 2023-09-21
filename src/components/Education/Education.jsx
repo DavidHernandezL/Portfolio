@@ -15,7 +15,7 @@ export const Education = () => {
       <Wrapper>
         <Title>Education</Title>
         <Desc>
-          My education has been a journey of self-discovery and growth. My educational details are as follows.
+          Mi educación ha sido un viaje de conocimientos y crecimiento. Mis datos educativos son los siguientes.
         </Desc>
         <TimelineSection>
           <Timeline>

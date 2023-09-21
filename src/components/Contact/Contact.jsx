@@ -11,8 +11,9 @@ export const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_he0yr8b', 'template_e1335q9', form.current, '1F8zp9wxZ5dGbduh-')
       .then((result) => {
+        console.log(result.text);
         setOpen(true);
         form.current.reset();
       }, (error) => {
@@ -23,15 +24,15 @@ export const Contact = () => {
   return (
     <Container>
       <Wrapper>
-        <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Title>Contacto</Title>
+        <Desc>¡No dude en ponerse en contacto conmigo para cualquier pregunta u oportunidad!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
-          <ContactButton type="submit" value="Send" />
+          <ContactTitle>Envíame un email 🚀</ContactTitle>
+          <ContactInput placeholder="Correo Electronico" name="from_email" />
+          <ContactInput placeholder="Nombre" name="from_name" />
+          <ContactInput placeholder="Asunto" name="subject" />
+          <ContactInputMessage placeholder="Mensaje" rows="4" name="message" />
+          <ContactButton type="submit" value="Enviar" />
         </ContactForm>
         <Snackbar
           open={open}
