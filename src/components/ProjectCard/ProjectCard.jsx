@@ -5,8 +5,8 @@ export const ProjectCard = ({ project, setOpenModal }) => {
     <Card onClick={() => setOpenModal({ state: true, project: project })}>
       <Image src={project.image} />
       <Tags>
-        {project.tags?.map((tag, index) => (
-          <Tag>{tag}</Tag>
+        {project.tags?.map((tag) => (
+          <Tag key={tag}>{tag}</Tag>
         ))}
       </Tags>
       <Details>
@@ -14,12 +14,6 @@ export const ProjectCard = ({ project, setOpenModal }) => {
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
       </Details>
-      <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
-        ))}
-      </Members>
-      {/* <Button>View Project</Button> */}
     </Card>
   )
 }

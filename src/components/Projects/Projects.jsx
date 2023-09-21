@@ -10,9 +10,9 @@ export const Projects = ({ openModal, setOpenModal }) => {
   return (
     <Container id="projects">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Proyectos</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          He realizado una serie de proyectos. Tanto en la parte Frontend como en el backend, usando tecnologías como NodeJS o ReactJS
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
@@ -21,22 +21,16 @@ export const Projects = ({ openModal, setOpenModal }) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          {toggle === 'Frontend' ?
+            <ToggleButton active value="Frontend" onClick={() => setToggle('Frontend')}>FRONTEND</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="Frontend" onClick={() => setToggle('Frontend')}>FRONTEND</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {toggle === 'Backend' ?
+            <ToggleButton active value="Backend" onClick={() => setToggle('Backend')}>BACKEND</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
-          }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="Backend" onClick={() => setToggle('Backend')}>BACKEND</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
