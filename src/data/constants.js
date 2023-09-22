@@ -132,7 +132,7 @@ export const experiences = [
   {
     id: "e1",
     role: "Frontend Engineer Intern",
-    company: "Neurobit",
+    company: "Mi casa",
     date: "June 2023 - Present",
     desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
     skills: [
@@ -144,7 +144,7 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+    doc: "",
   },
 ];
 
@@ -177,7 +177,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: "p1",
     title: "Propuesta de mejora en mivacuna.salud.gob.mx",
     date: "Agosto 2021 - Noviembre 2021",
     description:
@@ -194,21 +194,7 @@ export const projects = [
       "Express Js",
     ],
     category: "Backend",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
-  },
-  {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "Frontend",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
-  },
-
+    github: "https://github.com/",
+    webapp: "https://google.com/",
+  }
 ];
