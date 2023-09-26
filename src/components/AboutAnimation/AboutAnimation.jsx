@@ -3,12 +3,7 @@ import { Div } from './AboutAnimation.js';
 
 export const AboutAnimation = () => (
   <Div>
-    <svg
-      className="BgAnimation__svg"
-      viewBox="0 0 602 602"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+    <svg className="BgAnimation__svg" viewBox="0 0 602 602" fill="none" xmlns="http://www.w3.org/2000/svg" >
       <g opacity="0.15">
         <path
           fillRule="evenodd"

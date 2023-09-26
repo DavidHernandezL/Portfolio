@@ -5,8 +5,8 @@ export const Skills = () => {
   return (
     <Container id="skills">
       <Wrapper>
-        <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Title>Habilidades</Title>
+        <Desc>Estas son las habilidades que he adquirido a lo largo de mi desarrollo en el mundo de la programación.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (

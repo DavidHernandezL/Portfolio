@@ -13,7 +13,7 @@ export const Education = () => {
   return (
     <Container id="education">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Educación</Title>
         <Desc>
           Mi educación ha sido un viaje de conocimientos y crecimiento. Mis datos educativos son los siguientes.
         </Desc>

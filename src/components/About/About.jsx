@@ -13,29 +13,20 @@ export const About = () => {
         </AboutBg>
         <AboutInnerContainer >
           <AboutLeftContainer id="Left">
-            <Title>Hi, I am <br /> {Bio.name}</Title>
+            <Title>Hola, Yo soy <br /> {Bio.name}</Title>
             <TextLoop>
-              I am a
+              Soy
               <Span>
-                <Typewriter
-                  options={{
-                    strings: Bio.roles,
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
+                <Typewriter options={{ strings: Bio.roles, autoStart: true, loop: true }} />
               </Span>
             </TextLoop>
             <SubTitle>{Bio.description}</SubTitle>
-            <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+            <ResumeButton href={Bio.resume} target='display'>Descargar CV</ResumeButton>
           </AboutLeftContainer>
-
           <AboutRightContainer id="Right">
-
-            <Img src={profileImg} alt="hero-image" />
+            <Img src={profileImg} alt="personal profile image" />
           </AboutRightContainer>
         </AboutInnerContainer>
-
       </AboutContainer>
     </div>
   )

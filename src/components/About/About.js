@@ -14,7 +14,6 @@ export const AboutContainer = styled.div`
     padding: 32px 16px;
   }
   z-index: 1;
-
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
 
@@ -35,7 +34,6 @@ export const AboutBg = styled.div`
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-
   @media (max-width: 960px) {
     justify-content: center;
     padding: 0 0px;
@@ -49,7 +47,6 @@ export const AboutInnerContainer = styled.div`
   align-items: center;
   width: 100%;
   max-width: 1100px;
-
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -64,7 +61,6 @@ export const AboutLeftContainer = styled.div`
     flex-direction: column;
     align-items: center;
   }
-
   @media (max-width: 640px) {
     order: 2;
     margin-bottom: 30px;

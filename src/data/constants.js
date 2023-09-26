@@ -1,8 +1,8 @@
 export const Bio = {
   name: "David Hernandez",
   roles: [
-    "Full Stack Developer",
-    "Programmer",
+    "Desarrollador Web",
+    "Programador",
   ],
   description:
     "Soy David, un desarrollador web. Estoy apasionado de la tecnología y siempre estoy aprendiendo y creciendo. En mi portfolio, muestro mis habilidades y proyectos, que incluyen sitios web, aplicaciones web. Estoy buscando oportunidades para trabajar en proyectos desafiantes y emocionantes.",
@@ -12,12 +12,11 @@ export const Bio = {
   linkedin: "https://www.linkedin.com/in/davidhl-dev/",
   twitter: "https://twitter.com/DavidHL01",
   insta: "https://www.instagram.com/hernandezdeibit/",
-  facebook: "https://www.facebook.com",
 };
 
 export const skills = [
   {
-    id: "8ecddb86-817a-4276-b110-ef916e164515",
+    id: "s1",
     title: "Frontend",
     skills: [
       {
@@ -58,7 +57,7 @@ export const skills = [
     ],
   },
   {
-    id: "8ecddb86-817a-4276-b110-ef916e164518",
+    id: "s2",
     title: "Backend",
     skills: [
       {
@@ -97,7 +96,7 @@ export const skills = [
     ],
   },
   {
-    id: "8ecddb86-817a-4276-b110-ef916e164513",
+    id: "s3",
     title: "Otros",
     skills: [
       {
@@ -131,26 +130,20 @@ export const skills = [
 export const experiences = [
   {
     id: "e1",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    role: "Gestion del laboratorio de Bases de Datos",
+    company: "Facultad de Ciencias de la Computación, BUAP",
+    date: "Enero 2023 - Actualidad",
+    desc: "Administración del inventario de software y hardware del laboratorio. Atención a los usuarios del laboratorio, ofreciendo soporte técnico y resolviendo problemas.",
     skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+      "Administración",
+      "Mantenimiento de quipos de computo",
+    ]
   },
 ];
 
 export const education = [
   {
-    id: "458d8d95-da8a-4e25-b0d2-e2d1f586896a",
+    id: "e1",
     img: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Logo_de_la_BUAP.svg",
     school: "Benemérita Universidad Autónoma de Puebla",
     date: "Agosto 2019 - Actualidad",
@@ -158,7 +151,7 @@ export const education = [
     degree: "Ingeniería en Ciencias de la Computación",
   },
   {
-    id: "9b2421ea-eca4-4ba1-a072-7024082791f7",
+    id: "e2",
     img: "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg",
     school: "FreeCodeCamp",
     date: "Junio 2023 - Agosto 2023",
@@ -166,7 +159,7 @@ export const education = [
     degree: "JavaScript Algorithms and Data Structures",
   },
   {
-    id: "3e959748-5675-47e1-bae7-60db69dd123c",
+    id: "e3",
     img: "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg",
     school: "FreeCodeCamp",
     date: "Diciembre 2021 - Enero 2022",
@@ -177,13 +170,13 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: "p1",
     title: "Propuesta de mejora en mivacuna.salud.gob.mx",
     date: "Agosto 2021 - Noviembre 2021",
     description:
       "Entre las mejoras que se añadieron a la página web fueron la implementacion de un login con contraseña para mejorar la seguridad de los datos, se rediseño la API para contemplar estos cambios y mejorar tanto el rendimiento como la escalabilidad. Otra de las mejoras que se integraron fue el uso de la API de google maps.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://user-images.githubusercontent.com/71534630/270528923-a3442383-d942-49d4-a37d-9f7c0f1c1ef8.png",
     tags: [
       "Heroku",
       "Handlebars",
@@ -194,21 +187,21 @@ export const projects = [
       "Express Js",
     ],
     category: "Backend",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/DavidHernandezL/webapp-mivacuna",
+    webapp: "https://webapp-mivacuna.herokuapp.com/",
   },
   {
-    id: 0,
-    title: "Podstream",
-    date: "Apr 2023 - May 2023",
+    id: "p2",
+    title: "Foraneo App",
+    date: "Enero 2023 - Mayo 2023",
     description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+      "La aplicación es una herramienta diseñada para ayudar a los estudiantes foráneos de la Benemérita Universidad Autónoma de Puebla a adaptarse a su nueva vida en la ciudad. La aplicación ofrece una variedad de funciones, incluyendo: Información sobre la universidad y sus alrededores, además ofrece información sobre lugares para visitar, restaurantes para comer y actividades para realizar.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+      "https://github.com/DavidHernandezL/webapp-mivacuna/assets/71534630/8fa418be-0dc3-44e8-8733-37d19be67311",
+    tags: ["HTML5", "MongoDb", "CSS", "JS"],
     category: "Frontend",
-    github: "https://github.com/rishavchanda/Podstream",
-    webapp: "https://podstream.netlify.app/",
+    github: "https://github.com/Foraneo-App/Foraneo-App",
+    webapp: "https://foraneo-app.github.io/Foraneo-App/",
   },
 
 ];

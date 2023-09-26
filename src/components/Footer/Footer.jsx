@@ -11,11 +11,11 @@ export function Footer() {
       <FooterWrapper>
         <Logo>{Bio.name}</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
-          <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#education">Education</NavLink>
+          <NavLink href="#about">Acerca de</NavLink>
+          <NavLink href="#skills">Habilidades</NavLink>
+          <NavLink href="#experience">Experiencia</NavLink>
+          <NavLink href="#projects">Proyectos</NavLink>
+          <NavLink href="#education">Educación</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
