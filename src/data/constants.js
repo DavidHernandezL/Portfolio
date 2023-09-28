@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "David Hernandez",
+  name: "David Hernández",
   roles: [
     "Desarrollador Web",
     "Programador",
@@ -130,13 +130,13 @@ export const skills = [
 export const experiences = [
   {
     id: "e1",
-    role: "Gestion del laboratorio de Bases de Datos",
+    role: "Gestión del laboratorio de Bases de Datos",
     company: "Facultad de Ciencias de la Computación, BUAP",
     date: "Enero 2023 - Actualidad",
     desc: "Administración del inventario de software y hardware del laboratorio. Atención a los usuarios del laboratorio, ofreciendo soporte técnico y resolviendo problemas.",
     skills: [
       "Administración",
-      "Mantenimiento de quipos de computo",
+      "Mantenimiento de equipos de computo",
     ]
   },
 ];
