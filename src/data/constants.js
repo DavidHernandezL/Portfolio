@@ -8,7 +8,7 @@ export const Bio = {
     "Soy David, un desarrollador web. Estoy apasionado de la tecnología y siempre estoy aprendiendo y creciendo. En mi portfolio, muestro mis habilidades y proyectos, que incluyen sitios web, aplicaciones web. Estoy buscando oportunidades para trabajar en proyectos desafiantes y emocionantes.",
   github: "https://github.com/DavidHernandezL",
   resume:
-    "https://drive.google.com/file/d/1hRfFAFYHQjGdn7t-U2Qy81uk_YeE16hJ/view?usp=sharing",
+    "https://drive.google.com/file/d/1NvXdNuQGSPH_KM7mP-cKME1HStm77Y18/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/davidhl-dev/",
   twitter: "https://twitter.com/DavidHL01",
   insta: "https://www.instagram.com/hernandezdeibit/",
