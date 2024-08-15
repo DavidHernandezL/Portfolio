@@ -8,7 +8,7 @@ export const Bio = {
     "Soy David, un desarrollador web. Estoy apasionado de la tecnología y siempre estoy aprendiendo y creciendo. En mi portfolio, muestro mis habilidades y proyectos, que incluyen sitios web, aplicaciones web. Estoy buscando oportunidades para trabajar en proyectos desafiantes y emocionantes.",
   github: "https://github.com/DavidHernandezL",
   resume:
-    "https://drive.google.com/file/d/1NvXdNuQGSPH_KM7mP-cKME1HStm77Y18/view?usp=sharing",
+    "https://drive.google.com/file/d/1Dpz-Y5BqQ94Pv0SxydD51S0zctqYblB6/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/davidhl-dev/",
   twitter: "https://twitter.com/DavidHL01",
   insta: "https://www.instagram.com/hernandezdeibit/",
@@ -103,7 +103,7 @@ export const skills = [
         id: "o1",
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logo@2x.png",
       },
       {
         id: "o2",
@@ -121,7 +121,7 @@ export const skills = [
         id: "o4",
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://yt3.googleusercontent.com/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA=s900-c-k-c0x00ffffff-no-rj",
       }
     ],
   },
@@ -130,9 +130,21 @@ export const skills = [
 export const experiences = [
   {
     id: "e1",
+    role: "Desarollador Web",
+    company: "GRUPO IIKNO S.A. DE C.V.",
+    date: "Enero 2024 - Julio 2024",
+    desc: "Desarrollo de interfaz de usuario, así como el establecimiento entre cliente-servidor mediante el uso de una REST-API. Mantenimiento de funcionalidades existentes y la integración de nuevas.",
+    skills: [
+      "ReactJS",
+      ".NET",
+      "Gestión del tiempo",
+    ]
+  },
+  {
+    id: "e2",
     role: "Gestión del laboratorio de Bases de Datos",
     company: "Facultad de Ciencias de la Computación, BUAP",
-    date: "Enero 2023 - Actualidad",
+    date: "Enero 2023 - Diciembre 2023",
     desc: "Administración del inventario de software y hardware del laboratorio. Atención a los usuarios del laboratorio, ofreciendo soporte técnico y resolviendo problemas.",
     skills: [
       "Administración",
@@ -146,7 +158,7 @@ export const education = [
     id: "e1",
     img: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Logo_de_la_BUAP.svg",
     school: "Benemérita Universidad Autónoma de Puebla",
-    date: "Agosto 2019 - Actualidad",
+    date: "Agosto 2019 - Julio 2024",
     desc: "Actualmente estoy cursando una licenciatura en Ingeniería en Ciencias de la Computación en la Benemérita Universidad Autónoma de Puebla. He completado 8 semestres y tengo un promedio de 9.20. He seguido cursos sobre estructuras de datos, algoritmos, programación orientada a objetos, sistemas de gestión de bases de datos, sistemas operativos y redes informáticas, entre otros. ",
     degree: "Ingeniería en Ciencias de la Computación",
   },
@@ -202,6 +214,19 @@ export const projects = [
     category: "Frontend",
     github: "https://github.com/Foraneo-App/Foraneo-App",
     webapp: "https://foraneo-app.github.io/Foraneo-App/",
+  },
+  {
+    id: "p2",
+    title: "Care Buap",
+    date: "Agosto 2023 - Diciembre 2023",
+    description:
+      "Aplicación para apoyo emocional de los estudiantes BUAP integrando de un chat de apoyo al estudiante utilizando OpenAI.",
+    image:
+      "https://github.com/DavidHernandezL/webapp-mivacuna/assets/71534630/8fa418be-0dc3-44e8-8733-37d19be67311",
+    tags: ["ReactJS", "MongoDb", "NodeJs", "JS", "ExpressJS"],
+    category: "FullStack",
+    github: "https://github.com/DavidHernandezL/Care-buap",
+    webapp: "",
   },
 
 ];
