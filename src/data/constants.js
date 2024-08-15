@@ -103,7 +103,7 @@ export const skills = [
         id: "o1",
         name: "Git",
         image:
-          "https://git-scm.com/images/logo@2x.png",
+          "https://git-scm.com/images/logos/logomark-white@2x.png",
       },
       {
         id: "o2",
@@ -200,7 +200,7 @@ export const projects = [
     ],
     category: "Backend",
     github: "https://github.com/DavidHernandezL/webapp-mivacuna",
-    webapp: "https://webapp-mivacuna.herokuapp.com/",
+    webapp: "",
   },
   {
     id: "p2",
