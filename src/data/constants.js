@@ -216,7 +216,7 @@ export const projects = [
     webapp: "https://foraneo-app.github.io/Foraneo-App/",
   },
   {
-    id: "p2",
+    id: "p3",
     title: "Care Buap",
     date: "Agosto 2023 - Diciembre 2023",
     description:
