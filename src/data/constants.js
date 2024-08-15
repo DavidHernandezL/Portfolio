@@ -222,7 +222,7 @@ export const projects = [
     description:
       "Aplicación para apoyo emocional de los estudiantes BUAP integrando de un chat de apoyo al estudiante utilizando OpenAI.",
     image:
-      "https://github.com/DavidHernandezL/webapp-mivacuna/assets/71534630/8fa418be-0dc3-44e8-8733-37d19be67311",
+      "https://github.com/user-attachments/assets/c1af3957-dd14-47c7-8a3a-76a67c9bb2e1",
     tags: ["ReactJS", "MongoDb", "NodeJs", "JS", "ExpressJS"],
     category: "FullStack",
     github: "https://github.com/DavidHernandezL/Care-buap",
