@@ -17,7 +17,7 @@
     "@mui/lab": "^5.0.0-alpha.145",
     "@mui/material": "^5.14.10",
     "emailjs": "^4.0.3",
-    "react": "^18.2.0",
+    "react": "^18.3.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
     "react-router": "^6.16.0",
